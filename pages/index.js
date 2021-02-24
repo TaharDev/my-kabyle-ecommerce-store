@@ -11,53 +11,59 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Kabyle Jewelry
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Beautiful old kabyle bracelet from Bni Yanni.<br />
+          Highsilver,enamel and mediteranean corals
         </p>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+        <ul className={styles.grid}>
+          <li className={styles.card}>
+            <a href="#" >
+              <img src="/images/bracelet-one.jpg" alt="first brcelet" />
+              <h3>Wonderful kabyl silver bracelet with real mediteranean corals and enamel</h3>
+              <p>this bracelet is unusual in patterns and decoration. <br />
+              very rear, almost all the silver jewelry from the kabyls are made with silver and enameling since over 800 years.</p>
+            </a>
+          </li>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+          <li className={styles.card}>
+            <a href="#">
+              <img src="/images/bracelet-two.jpg" alt="second brcelet" />
+              <h3>Old Kabyle bracelet, from Algeria, Grande Kabylie &rarr;</h3>
+              <p>Old Kabyle bracelet Very pretty bracelet with a pin clasp, covered with wonderful silver granulations and cabochons set with red coral.<br />
+              A very pretty decoration of cloisonné enamels fired with charcoal enhances the backgrounds.<br />
+              Work of Béni-Yéni. Solid silver and enamels Algeria, Grande Kabylie.</p>
+            </a>
+          </li>
+          <li className={styles.card}>
+            <a href="#" >
+              <img src="/images/bracelet-three.jpg" alt="third brcelet" />
+              <h3>Nice colors ,unusual , very old kabyle bracelet.high silver with good mediteranean corals</h3>
+              <p>The enameling and smith work are very nicely done. <br />
+              unusual work and patterns. havent seen many of bracelets in this kind of work<br />
+              kabyle use the yelloworange,green and blue colors in enamel.</p>
+            </a>
+          </li>
+          <li className={styles.card}>
+            <a href="#"  >
+              <img src="/images/bracelet-four.jpg" alt="fourth brcelet" />
+              <h3>Massif silver with nice colors ,unusual , very old kabyle bracelet</h3>
+              <p>
+                The half bead in half round form is a symbol of chameleon eye.<br />
+              The chameleon is well seen in the ethnic world. it represents the smartnes,wiseness and surviving charactor.<br />
+              its also symbol for ancestors connection with the present world.
             </p>
-          </a>
-        </div>
+            </a>
+          </li>
+        </ul>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+        <a href="#" target="_blank" >
+          By: Tahar BM, Used Next Js, Stripe(payment) and Vercel(hosting)
         </a>
       </footer>
     </div>
