@@ -5,20 +5,17 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
+        {/* <img src="/images/kabylie.jpeg" alt="kabylie" /> */}
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Kabyle Jewelry
-        </h1>
-
+      <div className={styles.header}>
         <p className={styles.description}>
-          Beautiful old kabyle bracelet from Bni Yanni.<br />
-          Highsilver,enamel and mediteranean corals
+          Beautiful old kabyle Kabyle Jewelry Bni Yanni. Highsilver, enamel and mediteranean corals
         </p>
-
+      </div>
+      <main className={styles.main}>
         <ul className={styles.grid}>
           <li className={styles.card}>
             <a href="#" >
