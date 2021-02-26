@@ -1,6 +1,6 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+  padding: 0rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,16 +13,33 @@
   background-size: 100%;
   width: 67%;
   height: 20em;
-  opacity: 0.9;
-  padding-top: 0.5em;
+  /* opacity: 0.9; */
+  padding-top: 0em;
 }
 
-.header p {
+.header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  background-color: #5e8ddc;
+  color: antiquewhite;
+  justify-content: flex-end;
+  margin-top: 0;
+}
+
+.header li {
+  padding: 14px 0px;
+  border-left: 1px solid #c8e9fd;
+  min-width: 7em;
+  text-align: center;
+}
+
+.header p.description {
   font-size: 27px;
   font-weight: normal;
-  color: #f8f8ff;
-  background: #151618;
-  margin-top: 22.5%;
+  color: #f8f3fc;
+  background: #5e8ddc;
+  margin-top: 19%;
 }
 
 .main {
