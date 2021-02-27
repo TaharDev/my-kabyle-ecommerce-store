@@ -20,14 +20,18 @@ export default function Home() {
         <ul className={styles.grid}>
           {
             products.map(product => {
+              const {id,  title, description, price, image } = product;
               return (
-                <li className={styles.card}>
+                <li className={styles.card} key={id}>
                   <a href="#" >
-                    <img src={product.image} alt="product image" />
-                    <h3>{product.title}</h3>
-                    <p>${product.price}</p>
-                    <p>{product.description}</p>
+                    <img src={image} alt="product image" />
+                    <h3>{title}</h3>
+                    <p>${price}</p>
+                    <p>{description}</p>
                   </a>
+                  <p>
+                    <button>Buy Now</button>
+                  </p>
                 </li>
               )
             })

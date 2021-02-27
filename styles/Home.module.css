@@ -31,7 +31,7 @@
   padding: 14px 0px;
   border-left: 1px solid #c8e9fd;
   min-width: 7em;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .header p.description {
@@ -117,7 +117,7 @@
 
 .card {
   margin: 1rem;
-  flex-basis: calc(50% - 2rem);
+  /* flex-basis: calc(5% - 2rem); */
   padding: 1.5rem;
   text-align: left;
   color: inherit;
@@ -126,14 +126,18 @@
   list-style: none;
   /* border-radius: 10px; */
   transition: color 0.15s ease, border-color 0.15s ease;
-  text-align: center;
+  /* text-align: center; */
   /* height: 700px; */
   /* text-overflow:ellipsis; */
 }
 
+.card img {
+  text-align: center;
+}
+
 @media(min-width: 960px) {
   .card {
-    flex-basis: calc(45% - 2rem);
+    flex-basis: calc(30% - 2rem);
   }
 }
 
