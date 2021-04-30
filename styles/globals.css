@@ -1,7 +1,7 @@
 html,
 body {
   padding: 0;
-  background-color: #d8e2f6;
+  background-color: #429396;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -18,6 +18,5 @@ a {
 
 img {
   max-width: 100%;
-  border: solid 1px #fff;
   border-radius: 1px;
 }
